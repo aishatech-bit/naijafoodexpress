@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaijaFood Express - Authentic Nigerian Cuisine Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.svg" alt="NaijaFood Logo" class="logo-img">
+                Naija<span>Food</span>Express
+            </a>
+            <div class="nav-links">
+                <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
+                <a href="#dishes"><i class="fas fa-utensils"></i> Dishes</a>
+                <a href="#snacks"><i class="fas fa-cookie-bite"></i> Snacks</a>
+                <a href="#soups"><i class="fas fa-bowl-food"></i> Soups</a>
+                <a href="#track"><i class="fas fa-truck"></i> Track</a>
+                <a href="#cart" class="cart-icon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <div class="user-controls">
+                    <button class="btn login-btn"><i class="fas fa-user"></i> Sign In</button>
+                    <button class="btn logout-btn" style="display:none;"><i class="fas fa-sign-out-alt"></i> Logout</button>
+                    <span class="user-name" style="margin-left:12px;color:white;display:none;"></span>
+                </div>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Authentic Nigerian <span class="highlight">Food</span> Delivered Hot & Fresh</h1>
+                <p>Taste the real Naija flavor! From Jollof rice to Pepper soup, we deliver authentic Nigerian dishes straight to your doorstep across Lagos, Abuja & Port Harcourt.</p>
+                <div class="location-selector">
+                    <div class="location-input">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" placeholder="Enter your area (e.g., Ikeja, Lagos)">
+                    </div>
+                    <button class="btn find-food-btn">
+                        <i class="fas fa-search"></i> Find Naija Food
+                    </button>
+                </div>
+                <div class="delivery-info">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>30-45 mins delivery</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Contactless delivery</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-leaf"></i>
+                        <span>Fresh ingredients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/Delicious Naija Food.jpeg" alt="Jollof Rice with Chicken">
+                <div class="hero-badge">
+                    <span>🔥</span>
+                    <p>Spicy & Delicious!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Dishes -->
+    <section class="featured-dishes">
+        <div class="container">
+            <div class="section-header">
+                <h2>Today's Special <span class="highlight">Naija</span> Dishes</h2>
+                <p>Chef's special selection - prepared fresh daily</p>
+            </div>
+            <div class="featured-grid">
+                <!-- Featured items will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Dishes Section -->
+    <section class="dishes" id="dishes">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular <span class="highlight">Main</span> Dishes</h2>
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="all">All</button>
+                    <button class="tab-btn" data-category="rice">Rice Dishes</button>
+                    <button class="tab-btn" data-category="swallow">Swallows</button>
+                    <button class="tab-btn" data-category="protein">Protein</button>
+                </div>
+            </div>
+            <div class="dishes-grid">
+                <!-- Dishes will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Nigerian Snacks -->
+    <section class="snacks" id="snacks">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nigerian <span class="highlight">Snacks</span> & Small Chops</h2>
+                <p>Perfect for quick bites and parties</p>
+            </div>
+            <div class="snacks-grid">
+                <!-- Snacks will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Soups & Stews -->
+    <section class="soups" id="soups">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hearty <span class="highlight">Soups</span> & Stews</h2>
+                <p>Best served with your favorite swallow</p>
+            </div>
+            <div class="soups-grid">
+                <!-- Soups will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How NaijaFood <span class="highlight">Works</span></h2>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">1</div>
+                    <h3>Choose Your Naija Meal</h3>
+                    <p>Browse our menu of authentic Nigerian dishes and snacks</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">2</div>
+                    <h3>Customize & Order</h3>
+                    <p>Add extra protein, adjust spice level, and place your order</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">3</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Get your food delivered hot in 30-45 minutes</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">4</div>
+                    <h3>Enjoy & Repeat!</h3>
+                    <p>Savor authentic Nigerian flavors and order again</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Auth Modal -->
+    <div class="auth-modal" id="authModal" aria-hidden="true">
+        <div class="auth-content">
+            <span class="close-auth">&times;</span>
+            <div class="auth-forms">
+                <form id="loginForm" class="auth-form">
+                    <h3>Sign In</h3>
+                    <input type="email" id="loginEmail" placeholder="Email" required>
+                    <input type="password" id="loginPassword" placeholder="Password" required>
+                    <button class="btn" type="submit">Sign In</button>
+                </form>
+                <div class="divider">OR</div>
+                <form id="registerForm" class="auth-form">
+                    <h3>Create Account</h3>
+                    <input type="text" id="registerName" placeholder="Full name" required>
+                    <input type="email" id="registerEmail" placeholder="Email" required>
+                    <input type="password" id="registerPassword" placeholder="Password" required>
+                    <button class="btn" type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3><i class="fas fa-shopping-basket"></i> Your Naija Food Cart</h3>
+                <span class="close-cart">&times;</span>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be added here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-summary">
+                    <div class="summary-item">
+                        <span>Subtotal</span>
+                        <span class="subtotal">₦0.00</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Delivery Fee</span>
+                        <span class="delivery-fee">₦500.00</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span>Total</span>
+                        <span class="total-price">₦500.00</span>
+                    </div>
+                </div>
+                <button class="btn checkout-btn">
+                    <i class="fas fa-lock"></i> Proceed to Checkout
+                </button>
+                <p class="note"><i class="fas fa-info-circle"></i> Free delivery on orders above ₦5,000</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo.svg" alt="NaijaFood Logo">
+                        <h3>NaijaFood Express</h3>
+                    </div>
+                    <p>Delivering authentic Nigerian flavors since 2024. Taste home, wherever you are!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Popular Cities</h4>
+                    <a href="#"><i class="fas fa-city"></i> Lagos</a>
+                    <a href="#"><i class="fas fa-city"></i> Abuja</a>
+                    <a href="#"><i class="fas fa-city"></i> Port Harcourt</a>
+                    <a href="#"><i class="fas fa-city"></i> Ibadan</a>
+                    <a href="#"><i class="fas fa-city"></i> Benin City</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#"><i class="fas fa-question-circle"></i> Help Center</a>
+                    <a href="#"><i class="fas fa-briefcase"></i> Become a Partner</a>
+                    <a href="#"><i class="fas fa-truck"></i> Delivery Driver Jobs</a>
+                    <a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a>
+                    <a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> 0700-NAIJA-FOOD</p>
+                    <p><i class="fas fa-envelope"></i> support@naijafood.ng</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 24A, Awolowo Road, Ikoyi, Lagos</p>
+                    <div class="app-download">
+                        <h5>Download Our App</h5>
+                        <div class="app-buttons">
+                            <button class="app-btn">
+                                <i class="fab fa-apple"></i>
+                                <div>
+                                    <span>Download on the</span>
+                                    <strong>App Store</strong>
+                                </div>
+                            </button>
+                            <button class="app-btn">
+                                <i class="fab fa-google-play"></i>
+                                <div>
+                                    <span>Get it on</span>
+                                    <strong>Google Play</strong>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 NaijaFood Express. All rights reserved. | Authentic Nigerian Food Delivery</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fas fa-university"></i>
+                    <span>Pay with bank transfer</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

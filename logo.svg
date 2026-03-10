@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <circle cx="120" cy="120" r="120" fill="#E63946"/>
+  <g transform="translate(36,36)">
+    <path d="M36 10 C44 6 68 0 80 12 C92 24 112 36 116 56 C120 76 106 94 88 100 C70 106 50 104 36 92 C22 80 18 52 36 34 C40 30 32 14 36 10 Z" fill="#FFD65A"/>
+    <path d="M120 40 C124 34 144 18 160 20 C160 40 156 56 144 70 C132 84 112 92 96 88 C120 80 116 58 120 40 Z" fill="#2E8B57" opacity="0.9"/>
+    <text x="48" y="150" font-family="Montserrat, sans-serif" font-weight="700" font-size="36" fill="white">Naija</text>
+    <text x="118" y="150" font-family="Montserrat, sans-serif" font-weight="700" font-size="36" fill="#FFD65A">Food</text>
+  </g>
+</svg>
